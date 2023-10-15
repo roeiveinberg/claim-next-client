@@ -1,0 +1,8 @@
+.main-nav {
+    transform: translateX(0);
+    transition: transform 0.4s;
+}
+
+.main-nav.open {
+    transform: translateX(-290px);
+}
